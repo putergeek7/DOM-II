@@ -14,9 +14,12 @@
 // }
 
 const advImg = document.querySelector('.img-fluid rounded');
-
 console.log(advImg);
 
 advImg.addEventListener('mouseenter', () => {
-	advImg.style.transform = "scale(2)";
+	advImg.style.transform = 'scale(2)';
+	advImg.style.transition = 'transform 0.3s';
+});
+advImg.addEventListener('mouseleave', function() {
+	advImg.style.transform = 'scale(1)';
 });
