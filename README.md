@@ -11,7 +11,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
@@ -34,20 +34,20 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 ## Task 2: Create Unique Event Listeners
 
 - [ ] Using your [index.js file](js/index.js), create 10 [unique event listeners](https://developer.mozilla.org/en-US/docs/Web/Events). using your creativity to make the Fun Bus site more interactive. Here are some unique events you could try to use:
-      _ [ ] `mouseover`
-      _ [ ] `keydown`
-      _ [ ] `wheel`
+      _ [x] `mouseover`
+      _ [x] `keydown`
+      _ [x] `wheel`
       _ [ ] `drag / drop`
-      _ [ ] `load`
+      _ [x] `load`
       _ [ ] `focus`
-      _ [ ] `resize`
+      _ [x] `resize`
       _ [ ] `scroll`
       _ [ ] `select`
-      _ [ ] `dblclick`
+      _ [x] `dblclick`
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
-- [ ] Nest two similar events somewhere in the site and prevent the event propagation properly
+- [x] Nest two similar events somewhere in the site and prevent the event propagation properly
 - [ ] Stop the navigation items from refreshing the page by using `preventDefault()`
 
 ## Stretch Task:
